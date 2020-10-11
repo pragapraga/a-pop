@@ -47,7 +47,7 @@ function Playlist({ playlist }) {
 
   if (greaterThanMd) {
     return (
-      <div style={{ margin: "10px 0" }}>
+      <div style={{ margin: "10px 0" , fontSize: "0.9rem"}}>
         <Typography color="textSecondary" variant="button">
           PLAYLIST ({playlist.length})
         </Typography>
